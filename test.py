@@ -176,6 +176,7 @@ for i in range(20):
         # folder = './checkpoints/{0}/{1}/{2}'.format(self.args.dataset_name, self.args.aux_folder, self.args.seed)
     model_constructor = ModelConstructor(args, generator_seed=folder + '/netG_{}.pth'.format(gen))
     netG = model_constructor.make_model('Generator', True)
+    netG.eval()
     ai.test(netG, gen)
 args.writer.close()
 
