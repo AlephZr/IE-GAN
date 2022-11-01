@@ -9,7 +9,7 @@
 ### Preparation
 - Preparing *.npz* files for Pytorch Inception metrics evaluation (cifar10 as an example):
 ```
-python envs_repo/inception_pytorch/calculate_inception_moments.py --dataset C10 --data_root datasets
+python metric/inception_pytorch/calculate_inception_moments.py --dataset C10 --data_root datasets
 ```
 - Preparing *.tgz* files for Tensorflow Inception metrics evaluation
 - Preparing *.npz* files for Tensorflow FID metrics evaluation
