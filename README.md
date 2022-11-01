@@ -1,4 +1,6 @@
-# IE-GAN
+# IE-GAN[[arXiv]](https://arxiv.org/abs/2109.11078)
+Codes for paper "IE-GAN: An Improved Evolutionary Generative Adversarial Network Using a New Fitness Function and a Generic Crossover Operator"
+
 ## Prerequisites
 
 - Linux or macOS
@@ -30,9 +32,11 @@ bash ./scripts/CIFAR10_32.sh
 
 ## Acknowledgments
 
-Pytorch Inception metrics code from [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch).
+- The authors would like to thank  Dr. [Chaoyue Wang](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/chaoyue-wang.html) for his assistance.
 
-TensorFlow Inception Score code from [OpenAI's Improved-GAN.](https://github.com/openai/improved-gan).
+- Pytorch Inception metrics code from [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch).
 
-TensorFlow FID code from [TTUR](https://github.com/bioinf-jku/TTUR).
+- TensorFlow Inception Score code from [OpenAI's Improved-GAN.](https://github.com/openai/improved-gan).
+
+- TensorFlow FID code from [TTUR](https://github.com/bioinf-jku/TTUR).
 
